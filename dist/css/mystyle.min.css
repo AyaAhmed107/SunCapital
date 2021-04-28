@@ -1,2 +1,2 @@
-.active{color:#FE8100 !important;font-weight:bold !important}.back-grd{background-color:#FCFCFA}
+section{padding-top:5rem}.active{color:#FE8100 !important}.back-grd{background-color:#FCFCFA}.about__item h4:after{background:none repeat scroll 0 0 #FE8100;bottom:-5px;content:"";display:block;height:5px;position:relative;width:70%}
 /*# sourceMappingURL=mystyle.min.css.map */
