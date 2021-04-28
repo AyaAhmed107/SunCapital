@@ -1,4 +1,9 @@
-.navbar-nav .nav-link.active {
-  color: #FE8100;
+.active {
+  color: #FE8100 !important;
+  font-weight: bold !important;
+}
+
+.back-grd {
+  background-color: #FCFCFA;
 }
 /*# sourceMappingURL=mystyle.css.map */
