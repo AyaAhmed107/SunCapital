@@ -10,6 +10,10 @@ section {
   background-color: #FCFCFA;
 }
 
+.back-grd-accent {
+  background-color: #FE8100;
+}
+
 .about__item h4:after {
   background: none repeat scroll 0 0 #FE8100;
   bottom: -5px;
@@ -18,5 +22,55 @@ section {
   height: 5px;
   position: relative;
   width: 70%;
+}
+
+#curved-corner-bottomleft,
+#curved-corner-bottomright,
+#curved-corner-topleft,
+#curved-corner-topright {
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+  position: relative;
+}
+
+#curved-corner-bottomleft:before,
+#curved-corner-bottomright:before,
+#curved-corner-topleft:before,
+#curved-corner-topright:before {
+  content: "";
+  display: block;
+  width: 200%;
+  height: 200%;
+  position: absolute;
+  border-radius: 50%;
+}
+
+#curved-corner-bottomleft:before {
+  bottom: 0;
+  left: 0;
+  -webkit-box-shadow: -100px 50px 0 0 #FE8100;
+          box-shadow: -100px 50px 0 0 #FE8100;
+}
+
+#curved-corner-bottomright:before {
+  bottom: 0;
+  right: 0;
+  -webkit-box-shadow: 100px 50px 0 0 #FE8100;
+          box-shadow: 100px 50px 0 0 #FE8100;
+}
+
+#curved-corner-topleft:before {
+  top: 0;
+  left: 0;
+  -webkit-box-shadow: -100px -50px 0 0 #FE8100;
+          box-shadow: -100px -50px 0 0 #FE8100;
+}
+
+#curved-corner-topright:before {
+  top: 0;
+  right: 0;
+  -webkit-box-shadow: 100px -50px 0 0 #FE8100;
+          box-shadow: 100px -50px 0 0 #FE8100;
 }
 /*# sourceMappingURL=mystyle.css.map */
