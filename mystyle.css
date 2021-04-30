@@ -43,7 +43,7 @@ section {
   width: 200%;
   height: 200%;
   position: absolute;
-  border-radius: 50%;
+  border-radius: 20%;
 }
 
 #curved-corner-bottomleft:before {
@@ -63,14 +63,14 @@ section {
 #curved-corner-topleft:before {
   top: 0;
   left: 0;
-  -webkit-box-shadow: -100px -50px 0 0 #FE8100;
-          box-shadow: -100px -50px 0 0 #FE8100;
+  -webkit-box-shadow: -200px -50px 0 0 #FE8100;
+          box-shadow: -200px -50px 0 0 #FE8100;
 }
 
 #curved-corner-topright:before {
   top: 0;
   right: 0;
-  -webkit-box-shadow: 100px -50px 0 0 #FE8100;
-          box-shadow: 100px -50px 0 0 #FE8100;
+  -webkit-box-shadow: 200px -50px 0 0 #FE8100;
+          box-shadow: 200px -50px 0 0 #FE8100;
 }
 /*# sourceMappingURL=mystyle.css.map */
