@@ -70,7 +70,47 @@ section {
 #curved-corner-topright:before {
   top: 0;
   right: 0;
-  -webkit-box-shadow: 200px -50px 0 0 #FE8100;
-          box-shadow: 200px -50px 0 0 #FE8100;
+  -webkit-box-shadow: 100px -50px 0 0 #FE8100;
+          box-shadow: 100px -50px 0 0 #FE8100;
+}
+
+.slider {
+  height: 200px;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  color: #FE8100;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.swiper-button-next {
+  color: #FE8100;
+}
+
+.swiper-button-prev {
+  color: #FE8100;
+}
+
+.slider :root {
+  --swiper-theme-color: #FE8100;
 }
 /*# sourceMappingURL=mystyle.css.map */
